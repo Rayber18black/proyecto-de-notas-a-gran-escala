@@ -1,0 +1,19 @@
+project_id = "hgygbscyjgdmmvxzpjwq"
+
+[functions.bootstrap-root]
+verify_jwt = false
+
+[functions.admin-create-user]
+verify_jwt = true
+
+[functions.admin-delete-user]
+verify_jwt = true
+
+[functions.admin-update-password]
+verify_jwt = true
+
+[functions.telegram-publish]
+verify_jwt = true
+
+[functions.telegram-webhook]
+verify_jwt = false
